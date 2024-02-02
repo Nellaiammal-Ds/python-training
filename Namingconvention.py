@@ -12,7 +12,7 @@ class Circle:
 # function name should be lowercase with underscore
     def calculate_circumference(self):
         return 2 * 3.14 * self.radius
-
+# 
 if __name__ == "__main__":
     
 
@@ -23,3 +23,6 @@ if __name__ == "__main__":
     circle_obj = Circle(radius)
     circumference = circle_obj.calculate_circumference()
     print("Circle Circumference:", circumference)
+    
+    # constant should be uppercase with underscore
+   MY_CONSTANT = 100
